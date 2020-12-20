@@ -29,7 +29,7 @@ namespace DotaPal
         private readonly LowLevelKeyboardProc _proc;
 
         private readonly SharedData _sharedData;
-        private Overlay overlay;
+        private Overlay _overlay;
 
         public Form1()
         {
@@ -97,8 +97,8 @@ namespace DotaPal
             if (ci.TwoLetterISOLanguageName == "ru") lang = Language.Ru;
 
             _i18N = new I18N(lang);
-            overlay = new Overlay(_sharedData);
-            overlay.Window.Create();
+            _overlay = new Overlay(_sharedData);
+            _overlay.Window.Create();
             ChangeLanguage(lang);
         }
 
@@ -162,10 +162,10 @@ namespace DotaPal
                     _sharedData.IsOnDarkSide = !_sharedData.IsOnDarkSide;
                     break;
                 case Action.ToggleOverlay:
-                    if (overlay.Window.IsVisible)
-                        overlay.Window.Hide();
+                    if (_overlay.Window.IsVisible)
+                        _overlay.Window.Hide();
                     else
-                        overlay.Window.Show();
+                        _overlay.Window.Show();
                     break;
             }
         }
@@ -206,7 +206,7 @@ namespace DotaPal
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            overlay.Dispose();
+            _overlay.Dispose();
             UnhookWindowsHookEx(_hookID);
         }
 
