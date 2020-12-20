@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="cooldownTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>400, 355</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelToggleOverlay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelToggleOverlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="labelToggleOverlay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelToggleOverlay.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelToggleOverlay.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelToggleOverlay.Name" xml:space="preserve">
+    <value>labelToggleOverlay</value>
+  </data>
+  <data name="&gt;&gt;labelToggleOverlay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelToggleOverlay.Parent" xml:space="preserve">
+    <value>groupToggle</value>
+  </data>
+  <data name="&gt;&gt;labelToggleOverlay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 289</value>
+  </data>
+  <data name="groupToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 55</value>
+  </data>
+  <data name="groupToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="groupToggle.Text" xml:space="preserve">
+    <value>Сменить сторону таймеров сверху</value>
+  </data>
+  <data name="&gt;&gt;groupToggle.Name" xml:space="preserve">
+    <value>groupToggle</value>
+  </data>
+  <data name="&gt;&gt;groupToggle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupToggle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupToggle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnLangRu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLangRu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 7</value>
+  </data>
+  <data name="btnLangRu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnLangRu.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnLangRu.Text" xml:space="preserve">
+    <value>RU</value>
+  </data>
+  <data name="&gt;&gt;btnLangRu.Name" xml:space="preserve">
+    <value>btnLangRu</value>
+  </data>
+  <data name="&gt;&gt;btnLangRu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLangRu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnLangRu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnLangEn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 7</value>
+  </data>
+  <data name="btnLangEn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnLangEn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnLangEn.Text" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="&gt;&gt;btnLangEn.Name" xml:space="preserve">
+    <value>btnLangEn</value>
+  </data>
+  <data name="&gt;&gt;btnLangEn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLangEn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnLangEn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelChangeSide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="labelChangeSide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 23</value>
+  </data>
+  <data name="labelChangeSide.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelChangeSide.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelChangeSide.Name" xml:space="preserve">
+    <value>labelChangeSide</value>
+  </data>
+  <data name="&gt;&gt;labelChangeSide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelChangeSide.Parent" xml:space="preserve">
+    <value>groupChangeSide</value>
+  </data>
+  <data name="&gt;&gt;labelChangeSide.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupChangeSide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 228</value>
+  </data>
+  <data name="groupChangeSide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 55</value>
+  </data>
+  <data name="groupChangeSide.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupChangeSide.Text" xml:space="preserve">
+    <value>Сменить сторону таймеров сверху</value>
+  </data>
+  <data name="&gt;&gt;groupChangeSide.Name" xml:space="preserve">
+    <value>groupChangeSide</value>
+  </data>
+  <data name="&gt;&gt;groupChangeSide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupChangeSide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupChangeSide.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelResetExtra2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 159</value>
+  </data>
+  <data name="labelResetExtra2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="labelResetExtra2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelResetExtra2.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelResetExtra2.Name" xml:space="preserve">
+    <value>labelResetExtra2</value>
+  </data>
+  <data name="&gt;&gt;labelResetExtra2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelResetExtra2.Parent" xml:space="preserve">
+    <value>groupReset</value>
+  </data>
+  <data name="&gt;&gt;labelResetExtra2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelResetExtra1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 137</value>
+  </data>
+  <data name="labelResetExtra1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="labelResetExtra1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelResetExtra1.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelResetExtra1.Name" xml:space="preserve">
+    <value>labelResetExtra1</value>
+  </data>
+  <data name="&gt;&gt;labelResetExtra1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelResetExtra1.Parent" xml:space="preserve">
+    <value>groupReset</value>
+  </data>
+  <data name="&gt;&gt;labelResetExtra1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelResetHero5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 115</value>
+  </data>
+  <data name="labelResetHero5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="labelResetHero5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelResetHero5.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero5.Name" xml:space="preserve">
+    <value>labelResetHero5</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero5.Parent" xml:space="preserve">
+    <value>groupReset</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelResetHero4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 93</value>
+  </data>
+  <data name="labelResetHero4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="labelResetHero4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelResetHero4.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero4.Name" xml:space="preserve">
+    <value>labelResetHero4</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero4.Parent" xml:space="preserve">
+    <value>groupReset</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelResetHero3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 71</value>
+  </data>
+  <data name="labelResetHero3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="labelResetHero3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelResetHero3.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero3.Name" xml:space="preserve">
+    <value>labelResetHero3</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero3.Parent" xml:space="preserve">
+    <value>groupReset</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelResetHero2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="labelResetHero2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="labelResetHero2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelResetHero2.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero2.Name" xml:space="preserve">
+    <value>labelResetHero2</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero2.Parent" xml:space="preserve">
+    <value>groupReset</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelResetHero1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="labelResetHero1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="labelResetHero1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelResetHero1.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero1.Name" xml:space="preserve">
+    <value>labelResetHero1</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero1.Parent" xml:space="preserve">
+    <value>groupReset</value>
+  </data>
+  <data name="&gt;&gt;labelResetHero1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 36</value>
+  </data>
+  <data name="groupReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 186</value>
+  </data>
+  <data name="groupReset.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupReset.Text" xml:space="preserve">
+    <value>Сбросить таймер</value>
+  </data>
+  <data name="&gt;&gt;groupReset.Name" xml:space="preserve">
+    <value>groupReset</value>
+  </data>
+  <data name="&gt;&gt;groupReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupReset.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelAddExtra2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 158</value>
+  </data>
+  <data name="labelAddExtra2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="labelAddExtra2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelAddExtra2.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelAddExtra2.Name" xml:space="preserve">
+    <value>labelAddExtra2</value>
+  </data>
+  <data name="&gt;&gt;labelAddExtra2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddExtra2.Parent" xml:space="preserve">
+    <value>groupAdd</value>
+  </data>
+  <data name="&gt;&gt;labelAddExtra2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelAddExtra1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 136</value>
+  </data>
+  <data name="labelAddExtra1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="labelAddExtra1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelAddExtra1.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelAddExtra1.Name" xml:space="preserve">
+    <value>labelAddExtra1</value>
+  </data>
+  <data name="&gt;&gt;labelAddExtra1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddExtra1.Parent" xml:space="preserve">
+    <value>groupAdd</value>
+  </data>
+  <data name="&gt;&gt;labelAddExtra1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelAddHero5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 114</value>
+  </data>
+  <data name="labelAddHero5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="labelAddHero5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelAddHero5.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero5.Name" xml:space="preserve">
+    <value>labelAddHero5</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero5.Parent" xml:space="preserve">
+    <value>groupAdd</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelAddHero4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 92</value>
+  </data>
+  <data name="labelAddHero4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="labelAddHero4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelAddHero4.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero4.Name" xml:space="preserve">
+    <value>labelAddHero4</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero4.Parent" xml:space="preserve">
+    <value>groupAdd</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelAddHero3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 70</value>
+  </data>
+  <data name="labelAddHero3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="labelAddHero3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelAddHero3.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero3.Name" xml:space="preserve">
+    <value>labelAddHero3</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero3.Parent" xml:space="preserve">
+    <value>groupAdd</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelAddHero2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="labelAddHero2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="labelAddHero2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelAddHero2.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero2.Name" xml:space="preserve">
+    <value>labelAddHero2</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero2.Parent" xml:space="preserve">
+    <value>groupAdd</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelAddHero1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="labelAddHero1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="labelAddHero1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelAddHero1.Text" xml:space="preserve">
+    <value>Герой 1 - Alt+F1</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero1.Name" xml:space="preserve">
+    <value>labelAddHero1</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero1.Parent" xml:space="preserve">
+    <value>groupAdd</value>
+  </data>
+  <data name="&gt;&gt;labelAddHero1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 36</value>
+  </data>
+  <data name="groupAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 186</value>
+  </data>
+  <data name="groupAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupAdd.Text" xml:space="preserve">
+    <value>Добавить время на таймер</value>
+  </data>
+  <data name="&gt;&gt;groupAdd.Name" xml:space="preserve">
+    <value>groupAdd</value>
+  </data>
+  <data name="&gt;&gt;groupAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupAdd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>DotaPal</value>
+  </data>
+  <data name="&gt;&gt;cooldownTimer.Name" xml:space="preserve">
+    <value>cooldownTimer</value>
+  </data>
+  <data name="&gt;&gt;cooldownTimer.Type" xml:space="preserve">
+    <value>System.Timers.Timer, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
